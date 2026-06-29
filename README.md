@@ -24,6 +24,8 @@
 3. A 4gb usb drive, **You can use a sd card if you have a sd card to usb attableter since the t480 sd card slot is not loaded in opencore's boot menu and in BIOS**.
 4. Some time to get things working.
 
+---
+
 ### My specs
 | T480      | Modle |
 |--|--|--|
