@@ -39,6 +39,10 @@
 | WiFi & BT | Intel Dual Band Wireless-AC 8265 |
 | Keyboard  | Backlight Keyboard |
 
+---
+
+### Whats Working, Not, or Not tested
+
 | Working | Not Working | Not Tested |
 |--|--|--|
 | Native WiFi 🛜 | Find My 📱 | Dual Booting 🥾 |
