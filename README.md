@@ -24,10 +24,21 @@
 3. A 4gb usb drive, **You can use a sd card if you have a sd card to usb attableter since the t480 sd card slot is not loaded in opencore's boot menu and in BIOS**.
 4. Some time to get things working.
 
+### My specs
+| CPU       | Intel Core i5-8350U |
+| GPU       | Integrated Intel UHD Graphics 620 |
+| SSD       | NVME SSD 256Gb |
+| Display   | 1080p panel |
+| Memory    | 8GB DDR4 2400Mhz |
+| Camera    | Camera works on macOS |
+| WiFi & BT | Intel Dual Band Wireless-AC 8265 |
+| Keyboard  | Backlight Keyboard |
+
+
 |working|not working|not tested|
 |--|--|--|
-|||
-|||
+|native wifi🛜|Finded My📱|Dlue Booting🥾|
+|blue tothe||
 |||
 |||
 |||
