@@ -25,6 +25,8 @@
 4. Some time to get things working.
 
 ### My specs
+| T480      | Modle |
+|--|--|--|
 | CPU       | Intel Core i5-8350U |
 | GPU       | Integrated Intel UHD Graphics 620 |
 | SSD       | NVME SSD 256Gb |
