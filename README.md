@@ -45,5 +45,6 @@
 
 | Working | Not Working | Not Tested |
 |--|--|--|
-| Native WiFi 🛜 | Find My 📱 | Dual Booting 🥾 |
+| Native WiFi 🛜 | Finger Print Reader 🫆 | Dual Booting 🥾 |
 | Bluetooth 🔵 | | |
+| Fine My 📱 (needs to be enable in settings)||
