@@ -47,4 +47,9 @@
 |--|--|--|
 | Native WiFi 🛜 | Finger Print Reader 🫆 | Dual Booting 🥾 |
 | Bluetooth 🔵 | | |
-| Fine My 📱 (needs to be enable in settings)||
+| Find My 📱 (needs to be enable in settings)||
+
+### Why use macos,
+For me i have a iphone and the apple ecosystem is very well rounded,
+Everything works togeter, Universla Clipbore, My i messages syncs, my passwords syncs, find my iphone or mac.
+They are really build for one another.
