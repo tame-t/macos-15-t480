@@ -48,9 +48,23 @@
 | Native WiFi 🛜 | Finger Print Reader 🫆 | Dual Booting 🥾 |
 | Bluetooth 🔵 |AirDrop & Continuity 💨 | |
 |Find My 📱 (needs to be enable in settings)| Thunderbolt 3 ♆ ||
-|| Sidecar Wireless 🌐 ||
-||Apple Watch Unlock ⌚ ||
-
+| Brightness / Volume Control | Sidecar Wireless 🌐 ||
+|Battery Information |Apple Watch Unlock ⌚ ||
+| Audio (Audio Jack & Speaker)
+| USB Ports & Built-in Camera
+| Graphics Acceleration
+| Trackpoint 
+| Touchpad
+| Power management 
+| Sleep
+| FaceTime 
+| iMessage
+| HDMI
+| Automatic OS updates
+| Handoff 
+| Universal Clipboard
+| USB-C
+ 
 ### Why use macos,
 For me i have a iphone and the apple ecosystem is very well rounded,
 Everything works togeter, Universla Clipbore, My i messages syncs, my passwords syncs, find my iphone or mac.
