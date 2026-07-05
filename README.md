@@ -47,10 +47,11 @@
 |--|--|--|
 | Native WiFi 🛜 | Finger Print Reader 🫆 | Dual Booting 🥾 |
 | Bluetooth 🔵 |AirDrop & Continuity 💨 | |
-|Find My 📱 (needs to be enable in settings)| Thunderbolt 3 ♆ ||
+| Find My 📱 (needs to be enable in settings)| Thunderbolt 3 ♆ ||
 | Brightness ☀︎ & Volume Control 🎧 | Sidecar Wireless 🌐 ||
 | Battery Information 🔋 |Apple Watch Unlock ⌚ ||
 | Audio (Audio Jack & Speaker) 🔊
+| Location services 🌍
 | USB Ports 🔌 
 | Built-in Camera 🎥
 | Graphics Acceleration ▶️
