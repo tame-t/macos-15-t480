@@ -59,13 +59,13 @@
 | Power management ⚡
 | Sleep 💤
 | FaceTime 👩🏻‍💻
-| iMessage
-| HDMI
-| Automatic OS updates
-| Handoff 
-| Universal Clipboard
-| USB-C
-| Undervotling
+| iMessage 💬
+| HDMI 🖥️
+| Automatic macOS updates 🔄
+| Handoff 🫴
+| Universal Clipboard 📋
+| USB-C 🔌
+| Undervotling 🪫
  
 ### Why use macos,
 For me i have a iphone and the apple ecosystem is very well rounded,
