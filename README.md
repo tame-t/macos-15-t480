@@ -46,8 +46,10 @@
 | Working | Not Working | Not Tested |
 |--|--|--|
 | Native WiFi 🛜 | Finger Print Reader 🫆 | Dual Booting 🥾 |
-| Bluetooth 🔵 | | |
-| Find My 📱 (needs to be enable in settings)||
+| Bluetooth 🔵 |AirDrop & Continuity 💨 | |
+|Find My 📱 (needs to be enable in settings)| Thunderbolt 3 ♆ ||
+|| Sidecar Wireless 🌐 ||
+||Apple Watch Unlock ⌚ ||
 
 ### Why use macos,
 For me i have a iphone and the apple ecosystem is very well rounded,
