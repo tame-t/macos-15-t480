@@ -48,22 +48,24 @@
 | Native WiFi 🛜 | Finger Print Reader 🫆 | Dual Booting 🥾 |
 | Bluetooth 🔵 |AirDrop & Continuity 💨 | |
 |Find My 📱 (needs to be enable in settings)| Thunderbolt 3 ♆ ||
-| Brightness / Volume Control | Sidecar Wireless 🌐 ||
-|Battery Information |Apple Watch Unlock ⌚ ||
-| Audio (Audio Jack & Speaker)
-| USB Ports & Built-in Camera
-| Graphics Acceleration
-| Trackpoint 
-| Touchpad
-| Power management 
-| Sleep
-| FaceTime 
+| Brightness ☀︎ & Volume Control 🎧 | Sidecar Wireless 🌐 ||
+| Battery Information 🔋 |Apple Watch Unlock ⌚ ||
+| Audio (Audio Jack & Speaker) 🔊
+| USB Ports 🔌 
+| Built-in Camera 🎥
+| Graphics Acceleration ▶️
+| Trackpoint ➤
+| Touchpad 🖱️
+| Power management ⚡
+| Sleep 💤
+| FaceTime 👩🏻‍💻
 | iMessage
 | HDMI
 | Automatic OS updates
 | Handoff 
 | Universal Clipboard
 | USB-C
+| Undervotling
  
 ### Why use macos,
 For me i have a iphone and the apple ecosystem is very well rounded,
