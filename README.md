@@ -46,7 +46,7 @@
 | Working | Not Working | Not Tested |
 |--|--|--|
 | Native WiFi 🛜 | Finger Print Reader 🫆 | Dual Booting 🥾 |
-| Bluetooth 🔵 |AirDrop & Continuity 💨 | Simcard 📶 |
+| Bluetooth 🔵 |AirDrop & Continuity 💨 | Simcard 📶 wwan |
 | Find My 📱 (needs to be enable in settings)| Thunderbolt 3 ♆ | Ethernet port 🌐 |
 | Brightness ☀︎ & Volume Control 🎧 | Sidecar Wireless 🌐 ||
 | Battery Information 🔋 |Apple Watch Unlock ⌚ ||
