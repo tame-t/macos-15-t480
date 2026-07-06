@@ -41,7 +41,7 @@
 
 ---
 
-### Whats Working, Not, or Not tested
+### What's Working, Not, or Not tested
 
 | Working | Not Working | Not Tested |
 |--|--|--|
@@ -68,7 +68,10 @@
 | USB-C 🔌
 | Undervotling 🪫
  
-### Why use macOS,
+### Why use macOS
 For me, I have an iPhone, and the Apple ecosystem is very well-rounded.
-Everything works together, Universal Clipboard, My i messages syncs, my passwords sync, Find My iPhone or Mac.
+Everything works together: Universal Clipboard, my iMessages sync, my passwords sync, Find My iPhone or Mac.
 They are really built for one another.
+
+### Getting started
+We are going to start by installing macOS Ventura, then upgrading to macOS Sequoia, applying the patches that fix airportltwm, and allowing native Wi-Fi connectivity with an Intel Wi-Fi card.
