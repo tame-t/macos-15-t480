@@ -73,5 +73,30 @@ For me, I have an iPhone, and the Apple ecosystem is very well-rounded.
 Everything works together: Universal Clipboard, my iMessages sync, my passwords sync, Find My iPhone or Mac.
 They are really built for one another.
 
-### Getting started
-We are going to start by installing macOS Ventura, then upgrading to macOS Sequoia, applying the patches that fix airportltwm, and allowing native Wi-Fi connectivity with an Intel Wi-Fi card.
+### Getting started1`
+We are going to start by installing macOS Ventura, then upgrading to macOS Sequoia, applying the patches that fix airportltwm, and allowing native Wi-Fi connectivity with an Intel Wi-Fi card. Then we will add the Voltageshift to startup for undervolting.
+
+First, we need Rufus or BalenaEtcher to burn the custom .img file I made for the t480 for venture a the process is the same as any other iso file. The USB must be at least 4 GB for the img. Then we will modify the BIOS for the OpenCore bootloader. 
+
+##### The bios settings
+-  `Security > Security Chip`: must be **Disabled**
+-  `Memory Protection > Execution Prevention`: must be **Enabled**
+-  `Virtualization > Intel Virtualization Technology`: must be **Enabled**
+-  `Virtualization > Intel VT-d Feature`: must be **Enabled**
+-  `Anti-Theft > Computrace -> Current Setting`: must be **Disabled**
+-  `Secure Boot > Secure Boot`: must be **Disabled**
+-  `Intel SGX -> Intel SGX Control`: must be **Disabled**
+-  `Device Guard`: must be **Disabled**
+
+In Thunderbolt menu, set the following options:
+
+-  `Thunderbolt BIOS Assist Mode`: **UEFI Only**
+-  `Wake by Thunderbolt(TM) 3`: **No**
+-  `Security Level`: **No**
+-  `Support in Pre Boot Environment > Thunderbolt(TM) device`: **No**
+
+In Startup menu, set the following options:
+
+-  `UEFI/Legacy Boot`: **UEFI Only**
+-  `CSM Support`: **No**
+
