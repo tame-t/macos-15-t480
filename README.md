@@ -78,7 +78,7 @@ We are going to start by installing macOS Ventura, then upgrading to macOS Sequo
 
 First, we need Rufus or BalenaEtcher to burn the custom .img file I made for the t480 for venture a the process is the same as any other iso file. The USB must be at least 4 GB for the img. Then we will modify the BIOS for the OpenCore bootloader. 
 
-##### The bios settings
+#### The bios settings
 -  `Security > Security Chip`: must be **Disabled**
 -  `Memory Protection > Execution Prevention`: must be **Enabled**
 -  `Virtualization > Intel Virtualization Technology`: must be **Enabled**
