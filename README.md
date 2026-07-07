@@ -26,7 +26,7 @@
 
 ### Things You Need
 1. A working ThinkPad T480.
-2. A working Windows computer, this can be your ThinkPad too.
+2. A working Windows computer; this can be your ThinkPad too.
 3. A 4GB USB drive. **You can use an SD card if you have an SD card to USB adapter, since the T480 SD card slot is not loaded in OpenCore's boot menu and in BIOS**.
 4. Some time to get things working.
 
