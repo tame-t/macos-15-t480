@@ -94,14 +94,14 @@ First, we are going to configure the BIOS settings for OpenCore to function prop
 -  `Intel SGX -> Intel SGX Control`: must be **Disabled**
 -  `Device Guard`: must be **Disabled**
 
-In the Thunderbolt menu, set the following options:
+#### In the Thunderbolt menu, set the following options:
 
 -  `Thunderbolt BIOS Assist Mode`: **UEFI Only**
 -  `Wake by Thunderbolt(TM) 3`: **No**
 -  `Security Level`: **No**
 -  `Support in Pre Boot Environment > Thunderbolt(TM) device`: **No**
 
-In the Startup menu, set the following options:
+#### In the Startup menu, set the following options:
 
 -  `UEFI/Legacy Boot`: **UEFI Only**
 -  `CSM Support`: **No**
