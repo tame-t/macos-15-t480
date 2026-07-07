@@ -82,7 +82,7 @@ They are really built for one another.
 ### Getting started
 We are going to start by installing macOS Ventura, then upgrading to macOS Sequoia, applying the patches that fix airportltwm, and allowing native Wi-Fi connectivity with an Intel Wi-Fi card. Then we will add the Voltageshift to startup for undervolting.
 
-First, we need Rufus or BalenaEtcher to burn the custom .img file I made for the t480 for venture a the process is the same as any other iso file. The USB must be at least 4 GB for the img. Then we will modify the BIOS for the OpenCore bootloader. 
+First, we are going to configure the BIOS settings for OpenCore to function properly.
 
 #### The bios settings:
 -  `Security > Security Chip`: must be **Disabled**
@@ -94,15 +94,22 @@ First, we need Rufus or BalenaEtcher to burn the custom .img file I made for the
 -  `Intel SGX -> Intel SGX Control`: must be **Disabled**
 -  `Device Guard`: must be **Disabled**
 
-In Thunderbolt menu, set the following options:
+In the Thunderbolt menu, set the following options:
 
 -  `Thunderbolt BIOS Assist Mode`: **UEFI Only**
 -  `Wake by Thunderbolt(TM) 3`: **No**
 -  `Security Level`: **No**
 -  `Support in Pre Boot Environment > Thunderbolt(TM) device`: **No**
 
-In Startup menu, set the following options:
+In the Startup menu, set the following options:
 
 -  `UEFI/Legacy Boot`: **UEFI Only**
 -  `CSM Support`: **No**
 
+Now we will prepare the USB for installing Ventura. 
+The USB must be at least 4 GB for it to house the recovery images. 
+
+The reason why we are installing macOS Ventura first is that macOS Sequoia patches the airportilwm.kext; the older version used to get wifi in recovery. 
+I have seen some people who use the Ethernet connection with Sequoia's recovery, but for this guide, I will use Wi-Fi instead.
+
+Unfortulatly i can't provide a .img or .iso file that is preconfigured because that is considered pricey and is very illegal. 
