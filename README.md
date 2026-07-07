@@ -14,6 +14,12 @@
 [![OCLP Mod](https://img.shields.io/badge/WiFi-OCLP_Mod-27ae60?style=flat-square&logo=github&logoColor=white)](https://github.com/laobamac/OCLP-Mod)
 [![License](https://img.shields.io/badge/License-MIT-brightgreen?style=flat-square&logo=opensourceinitiative&logoColor=white)](LICENSE)
 
+**This repo is made for educational purposes, and I do not condone the piracy of any Apple products.**
+
+**I am not responsible for causing any harm to your devices; this guide is provided as is and should only be used at your own risk.**
+
+**This guide was made for my ThinkPad T480 and is not guaranteed to work for your t480.**
+
 </div>
 
 ---
