@@ -73,12 +73,12 @@ For me, I have an iPhone, and the Apple ecosystem is very well-rounded.
 Everything works together: Universal Clipboard, my iMessages sync, my passwords sync, Find My iPhone or Mac.
 They are really built for one another.
 
-### Getting started1`
+### Getting started
 We are going to start by installing macOS Ventura, then upgrading to macOS Sequoia, applying the patches that fix airportltwm, and allowing native Wi-Fi connectivity with an Intel Wi-Fi card. Then we will add the Voltageshift to startup for undervolting.
 
 First, we need Rufus or BalenaEtcher to burn the custom .img file I made for the t480 for venture a the process is the same as any other iso file. The USB must be at least 4 GB for the img. Then we will modify the BIOS for the OpenCore bootloader. 
 
-#### The bios settings
+#### The bios settings:
 -  `Security > Security Chip`: must be **Disabled**
 -  `Memory Protection > Execution Prevention`: must be **Enabled**
 -  `Virtualization > Intel Virtualization Technology`: must be **Enabled**
