@@ -114,10 +114,11 @@ I have seen some people who use the Ethernet connection with Sequoia's recovery,
 Unfortulatly i can't provide a .img or .iso file that is preconfigured because that is considered pricey and is very illegal.
 
 #### Now we will prepare the USB for installing Ventura. 
-The USB must be at least 4 GB for it to house the recovery images of macOS. We are going to be formatting the USB using Rufus, a Windows .exe application, the rufus.exe should already be in the repository. [Rufus](https://rufus.ie/en/)
+The USB must be at least 4 GB for it to house the recovery images of macOS. We are going to be formatting the USB using Rufus, a Windows .exe application. The rufus.exe should already be in the repository. [Rufus](https://rufus.ie/en/)
 
 #### Now in Rufus
-Select the USB that you're going to use and match all the selections with the image provided below.
+Select the USB that you're going to use and match all the selections with the image provided below, then hit start.
+
 <img width="474" height="538" alt="image" src="https://github.com/user-attachments/assets/4cd815f7-3ee8-4686-acba-3af6d03ebced" />
 
-
+After the USB is formatted, delete all files from the USB that came from the formatting. **Things like autorun** 
