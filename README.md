@@ -53,7 +53,7 @@
 |--|--|--|
 | Native WiFi 🛜 | Finger Print Reader 🫆 | Dual Booting 🥾 |
 | Bluetooth 🔵 |AirDrop & Continuity 💨 | Simcard 📶 wwan |
-| Find My 📱 (needs to be enable in settings)| Thunderbolt 3 ♆ | Ethernet port 🌐 |
+| Find My 📱 (needs to be enable in settings)| Thunderbolt 3 ♆ | LAN port 🌐 |
 | Brightness ☀︎ & Volume Control 🎧 | Sidecar Wireless 🌐 ||
 | Battery Information 🔋 |Apple Watch Unlock ⌚ ||
 | Audio (Audio Jack & Speaker) 🔊
