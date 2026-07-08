@@ -80,6 +80,8 @@ Everything works together: Universal Clipboard, my iMessages sync, my passwords 
 They are really built for one another.
 
 ### Getting started
+We are going to download this repo, which contains the necessary files to be able to configure everything for the t480.
+
 We are going to start by installing macOS Ventura, then upgrading to macOS Sequoia, applying the patches that fix airportltwm, and allowing native Wi-Fi connectivity with an Intel Wi-Fi card. Then we will add the Voltageshift to startup for undervolting.
 
 First, we are going to configure the BIOS settings for OpenCore to function properly.
@@ -106,10 +108,16 @@ First, we are going to configure the BIOS settings for OpenCore to function prop
 -  `UEFI/Legacy Boot`: **UEFI Only**
 -  `CSM Support`: **No**
 
-Now we will prepare the USB for installing Ventura. 
-The USB must be at least 4 GB for it to house the recovery images. 
-
 The reason why we are installing macOS Ventura first is that macOS Sequoia patches the airportilwm.kext; the older version used to get wifi in recovery. 
 I have seen some people who use the Ethernet connection with Sequoia's recovery, but for this guide, I will use Wi-Fi instead.
 
-Unfortulatly i can't provide a .img or .iso file that is preconfigured because that is considered pricey and is very illegal. 
+Unfortulatly i can't provide a .img or .iso file that is preconfigured because that is considered pricey and is very illegal.
+
+#### Now we will prepare the USB for installing Ventura. 
+The USB must be at least 4 GB for it to house the recovery images of macOS. We are going to be formatting the USB using Rufus, a Windows .exe application, the rufus.exe should already be in the repository. [Rufus](https://rufus.ie/en/)
+
+#### Now in Rufus
+Select the USB that you're going to use and match all the selections with the image provided below.
+<img width="474" height="538" alt="image" src="https://github.com/user-attachments/assets/4cd815f7-3ee8-4686-acba-3af6d03ebced" />
+
+
