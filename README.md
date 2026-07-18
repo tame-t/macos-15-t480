@@ -82,7 +82,7 @@ Everything works together: Universal Clipboard, my iMessages sync, my passwords 
 They are really built for one another.
 
 ### Getting started
-We are going to download this repo, which contains the necessary files to be able to configure everything for the t480.
+We are going to download this repo, which contains all the necessary files to be able to configure everything for you're t480.
 
 We are going to start by installing macOS Ventura, then upgrading to macOS Sequoia, applying the patches that fix airportltwm, and allowing native Wi-Fi connectivity with an Intel Wi-Fi card. Then we will add the Voltageshift to startup for undervolting.
 
@@ -125,4 +125,4 @@ Select the USB that you're going to use and match all the selections with the im
 
 After the USB is formatted, delete all files from the USB that came from the formatting. **Things like autorun** 
 
-Then we are going to use macrecovery.py to get the Ventura recovery files. [macosrecovery.py](https://github.com/acidanthera/OpenCorePkg/blob/master/Utilities/macrecovery/macrecovery.py)
+Then we are going to use macrecovery.py that is located in the file you downloaded to get the Ventura recovery files. [macosrecovery.py](https://github.com/acidanthera/OpenCorePkg/blob/master/Utilities/macrecovery/macrecovery.py)
