@@ -82,13 +82,13 @@ Everything works together: Universal Clipboard, my iMessages sync, my passwords 
 They are really built for one another.
 
 ### Getting started
-We are going to download this repo, which contains all the necessary files to be able to configure everything for you're t480.
+We are going to download this repo, which contains all the necessary files to be able to configure everything for your t480.
 
 We are going to start by installing macOS Ventura, then upgrading to macOS Sequoia, applying the patches that fix airportltwm, and allowing native Wi-Fi connectivity with an Intel Wi-Fi card. Then we will add the Voltageshift to startup for undervolting.
 
 First, we are going to configure the BIOS settings for OpenCore to function properly.
 
-#### The bios settings:
+#### The BIOS settings:
 -  `Security > Security Chip`: must be **Disabled**
 -  `Memory Protection > Execution Prevention`: must be **Enabled**
 -  `Virtualization > Intel Virtualization Technology`: must be **Enabled**
@@ -119,10 +119,15 @@ Unfortulatly i can't provide a .img or .iso file that is preconfigured because t
 The USB must be at least 4 GB for it to house the recovery images of macOS. We are going to be formatting the USB using Rufus, a Windows .exe application. The rufus.exe should already be in the repository. [Rufus](https://rufus.ie/en/)
 
 #### Now in Rufus
-Select the USB that you're going to use and match all the selections with the image provided below, then hit start.
+Select the USB that you're going to use and match all the selections with the image provided below, then hit Start.
 
 <img width="474" height="538" alt="image" src="https://github.com/user-attachments/assets/4cd815f7-3ee8-4686-acba-3af6d03ebced" />
 
 After the USB is formatted, delete all files from the USB that came from the formatting. **Things like autorun** 
 
-Then we are going to use macrecovery.py that is located in the file you downloaded to get the Ventura recovery files. [macosrecovery.py](https://github.com/acidanthera/OpenCorePkg/blob/master/Utilities/macrecovery/macrecovery.py)
+Then we are going to use macrecovery.py, which is located in the file you downloaded, to get the Ventura recovery files. [macosrecovery.py](https://github.com/acidanthera/OpenCorePkg/blob/master/Utilities/macrecovery/macrecovery.py)
+
+`bash
+cd macos-15-t480
+py macrecovery.py -b Mac-4B682C642B45593E -m 00000000000000000 download
+`
