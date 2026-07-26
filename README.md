@@ -2,7 +2,7 @@
 
 <h1>A guide for installing macOS 15 on a ThinkPad T480</h1>
 
-<h2>For the guide i foucs on bundling everthing you need in to one place, making reproducable.</h2>
+<h2>For the guide, I focus on bundling everything you need into one place, making it reproducible.</h2>
 
 <p>A complete guide for installing <a href="https://apps.apple.com/us/app/macos-sequoia/id6596773750?mt=12">macOS</a> Sequoia on the <a href="https://www.lenovo.com/us/en/p/laptops/thinkpad/thinkpadt/thinkpad-t480/22tp2tt4800?srsltid=AfmBOooXFtlhLQXZFbJswnsfmBPZG1QH3bZPpnrvW3ITn5nMiqsZHqEH">ThinkPad T480</a> from start to finish using <a href="https://dortania.github.io/OpenCore-Install-Guide/">OpenCore</a> as the bootloader, including a guide for undervolting via <a href="https://github.com/sicreative/voltageshift">VoltageShift</a>, WiFi patching via <a href="https://github.com/laobamac/OCLP-Mod">OCLP Mod</a>.</p>
 
@@ -49,7 +49,7 @@
 
 ---
 
-### What's Working, Not, or Not tested
+### What's Working, Not Working, or Not Tested
 
 | Working | Not Working | Not Tested |
 |--|--|--|
@@ -127,8 +127,8 @@ After the USB is formatted, delete all files from the USB that came from the for
 
 Then we are going to use macrecovery.py, which is located in the file you downloaded, to get the Ventura recovery files. [macosrecovery.py](https://github.com/acidanthera/OpenCorePkg/blob/master/Utilities/macrecovery/macrecovery.py)
 
-This is a Python script so you will need to install Python to use it,
-commmand for installing python on windows.
+This is a Python script, so you will need to install Python to use it,
+Command for installing Python on Windows.
 
 ```bash
 winget install -e --id Python.Python.3
@@ -141,4 +141,5 @@ cd ~/Downloads/macos-15-t480/macrecovery
 py macrecovery.py -b Mac-4B682C642B45593E -m 00000000000000000 download
 ```
 
-Now the recovery files are located at ~
+Now the recovery files are located at `~/Downloads/macos-15-t480/macrecovery/com.apple.recovery.boot/*`
+
