@@ -127,7 +127,18 @@ After the USB is formatted, delete all files from the USB that came from the for
 
 Then we are going to use macrecovery.py, which is located in the file you downloaded, to get the Ventura recovery files. [macosrecovery.py](https://github.com/acidanthera/OpenCorePkg/blob/master/Utilities/macrecovery/macrecovery.py)
 
+This is a Python script so you will need to install Python to use it,
+commmand for installing python on windows.
+
+```bash
+winget install -e --id Python.Python.3
+```
+
+Command for downloading macOS Ventura recovery files.
+
 ```bash
 cd ~/Downloads/macos-15-t480/macrecovery
 py macrecovery.py -b Mac-4B682C642B45593E -m 00000000000000000 download
 ```
+
+Now the recovery files are located at ~
