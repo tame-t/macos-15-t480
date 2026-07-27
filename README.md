@@ -143,4 +143,5 @@ py macrecovery.py -b Mac-4B682C642B45593E -m 00000000000000000 download
 
 Now the recovery files are located at `~/Downloads/macos-15-t480/macrecovery/com.apple.recovery.boot/*`
 <img width="626" height="61" alt="Screenshot 2026-07-26 at 17 32 55" src="https://github.com/user-attachments/assets/64a47593-4455-4228-b1a2-971509786294" />
+
 And it should look something like this.
