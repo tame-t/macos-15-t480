@@ -113,7 +113,7 @@ First, we are going to configure the BIOS settings for OpenCore to function prop
 The reason why we are installing macOS Ventura first is that macOS Sequoia patches the airportilwm.kext; the older version used to get wifi in recovery. 
 I have seen some people who use the Ethernet connection with Sequoia's recovery, but for this guide, I will use Wi-Fi instead.
 
-Unfortulatly i can't provide a .img or .iso file that is preconfigured because that is considered pricey and is very illegal.
+Unfortulatly I can't provide a .img or .iso file that is preconfigured because that is considered pricey and is very illegal.
 
 #### Now we will prepare the USB for installing Ventura. 
 The USB must be at least 4 GB for it to house the recovery images of macOS. We are going to be formatting the USB using Rufus, a Windows .exe application. The rufus.exe should already be in the repository. [Rufus](https://rufus.ie/en/)
