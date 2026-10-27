@@ -145,3 +145,5 @@ Now the recovery files are located at `~/Downloads/macos-15-t480/macrecovery/com
 <img width="626" height="61" alt="Screenshot 2026-07-26 at 17 32 55" src="https://github.com/user-attachments/assets/64a47593-4455-4228-b1a2-971509786294" />
 
 And it should look something like this.
+
+Then Boot in to the use, just like how you would another OS, When you get to the boot menu press space to show all the option, Select the .dmg file then, partition using Disk Utility, and install macos.
