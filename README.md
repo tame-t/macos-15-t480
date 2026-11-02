@@ -157,10 +157,10 @@ Now you in opencore, select the .dmg file to boot from, if the file doesn't show
 Now wait a bit, booting in to recovery can take a long time depending on you're drive speed "usb/sd card", after a bit it should start loading.
 <img width="1280" height="832" alt="image" src="https://github.com/user-attachments/assets/7eecafdf-cab6-491b-88e2-a0c6eee55f16" />
 
-After a bit you will boot in to recovery, select disk utility so we can format the drive. *note that those pictures of disk utility is from macos tahoe, you're will look different but function the same*
+After a bit you will boot in to recovery, select disk utility so we can format the drive.
 <img width="510" height="469" alt="Screenshot 2026-11-02 at 12 23 37" src="https://github.com/user-attachments/assets/e5f2f876-2893-43cf-9479-75f501c4c5ec" />
 
-Then from the menu bar or toolbar in Disk Utility, choose View > Show All Devices
+Then from the menu bar or toolbar in Disk Utility, choose View > Show All Devices *note that those pictures of disk utility is from macos tahoe, you're s will look different but function the same*
 <img width="890" height="440" alt="image" src="https://github.com/user-attachments/assets/e0979fea-b4e7-4cc0-908d-5a2a6e659d8b" />
 
 Then in the internal section select the drive you want to install MacOS on to, *you should be able to partition the drive here too but i wouldn't explain how to duel boot with one drive as its uncharted territory for me, also i wound not recommend duel boot with a drive that is less then 500gb*.
