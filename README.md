@@ -150,9 +150,17 @@ And it should look something like this.
 
 reboot and press enter and then F12 to get in to the boot picker it should look something like this.
 <img width="627" height="251" alt="Screenshot 2026-11-02 at 12 08 05" src="https://github.com/user-attachments/assets/d6dc15ed-1f87-407f-9452-81ee41a51a34" />
+
 Then select the usb/sd card or any drive that you use for opencore.
 
 Now you in opencore, select the .dmg file to boot from, if the file doesn't show up for you try pressing space to show all hidden entries.
 Now wait a bit, booting in to recovery can take a long time depending on you're drive speed "usb/sd card", after a bit it should start loading.
 <img width="1280" height="832" alt="image" src="https://github.com/user-attachments/assets/7eecafdf-cab6-491b-88e2-a0c6eee55f16" />
+
+You will boot in to recovery, select disk utility. <img width="510" height="469" alt="Screenshot 2026-11-02 at 12 23 37" src="https://github.com/user-attachments/assets/e5f2f876-2893-43cf-9479-75f501c4c5ec" />
+
+Then from the menu bar or toolbar in Disk Utility, choose View > Show All Devices
+<img width="890" height="440" alt="image" src="https://github.com/user-attachments/assets/e0979fea-b4e7-4cc0-908d-5a2a6e659d8b" />
+
+Then in the internal section select the drive you want to install macos on to, you should be able to partition the drive here too but i wouldn't explain how to duel boot with one drive as its uncharted territory for me.
 
