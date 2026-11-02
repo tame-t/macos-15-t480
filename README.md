@@ -167,3 +167,11 @@ Then in the internal section select the drive you want to install MacOS on to, *
 
 Now select drive it self like show in the picture.
 <img width="1174" height="476" alt="Screenshot 2026-11-02 at 13 00 41" src="https://github.com/user-attachments/assets/681f699f-89db-4b99-b6fe-5ea017d1d193" />
+
+Now click Erase.
+<img width="1179" height="491" alt="Screenshot 2026-11-02 at 13 10 26" src="https://github.com/user-attachments/assets/655652fc-f91e-4d30-a687-6b18c3ab05e7" />
+
+Now you can format the drive, select APFS for format, and GUID Partition Map for scheme, then hit Erase.
+<img width="1169" height="489" alt="Screenshot 2026-11-02 at 13 11 41" src="https://github.com/user-attachments/assets/2923848a-8fae-479b-bc8a-82019a72b2c6" />
+
+
