@@ -228,3 +228,18 @@ Now you can format the drive, for name you can name it anything you want for exa
 Now you can exit out of disk utility, and select reinstall Ventura or Sequoia if you are on Ethernet.
 <img width="511" height="470" alt="Screenshot 2026-11-02 at 13 35 30" src="https://github.com/user-attachments/assets/22c7275c-c949-4a02-9bb1-1ac75f815d1d" />
 
+Then just go through the install normally, agreeing to the term of services.
+
+<img width="962" height="704" alt="image" src="https://github.com/user-attachments/assets/42616d53-973c-4434-9853-cfafad0de249" />
+
+Selecting newly formatted ssd and clicking install.
+
+<img width="604" height="465" alt="Screenshot 2026-11-02 at 14 45 13" src="https://github.com/user-attachments/assets/912ecf97-88e5-41c5-9b04-52262f851578" />
+
+The install prossecs can take time, this depended on you internet speed.
+
+<img width="607" height="456" alt="image" src="https://github.com/user-attachments/assets/76b78a5b-8b5d-490e-8637-a49170fa6467" />
+
+After this you ThinkPad will reboot, this can happen 3-4 times some time even more, make sure that you boot in to opencore usb every time, if not go into bio and change the first boot option to the usb/sd card.
+
+<img width="1904" height="1043" alt="image" src="https://github.com/user-attachments/assets/b294f04b-1855-4fba-ad5b-57000f807b1f" />
