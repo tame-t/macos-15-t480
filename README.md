@@ -172,6 +172,7 @@ Now click Erase.
 <img width="1179" height="491" alt="Screenshot 2026-11-02 at 13 10 26" src="https://github.com/user-attachments/assets/655652fc-f91e-4d30-a687-6b18c3ab05e7" />
 
 Now you can format the drive, for name you can name it anything you want for example hackintosh, macintosh, ssd, etc. Select APFS for format, and GUID Partition Map for scheme, then hit Erase.
+*DISCLAIMER FORMATTING WILL ERASE ALL FILES AND CONTAIN ON THE DRIVE, PLEASE BACK UP ANYTHING YOU NEED BEFORE FORMATTING*
 <img width="1169" height="489" alt="Screenshot 2026-11-02 at 13 11 41" src="https://github.com/user-attachments/assets/2923848a-8fae-479b-bc8a-82019a72b2c6" />
 
 
