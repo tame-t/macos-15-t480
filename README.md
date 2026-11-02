@@ -22,6 +22,8 @@
 
 **This guide was made for my ThinkPad T480 and is not guaranteed to work for your t480.**
 
+**I just recently made a opencore EFI for running MacOS Tahoe on the ThinkPad t480, here is the link [tahoe-t480](https://github.com/tame-t/tahoe-t480)**
+
 </div>
 
 ---
@@ -146,4 +148,4 @@ Now the recovery files are located at `~/Downloads/macos-15-t480/macrecovery/com
 
 And it should look something like this.
 
-Then Boot in to the use, just like how you would another OS, When you get to the boot menu press space to show all the option, Select the .dmg file then, partition using Disk Utility, and install macos.
+
