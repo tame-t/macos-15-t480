@@ -212,7 +212,7 @@ Then from the menu bar or toolbar in Disk Utility, choose View > Show All Device
 <img width="890" height="440" alt="image" src="https://github.com/user-attachments/assets/e0979fea-b4e7-4cc0-908d-5a2a6e659d8b" />
 
 Then in the internal section select the drive you want to install MacOS on to. *You should be able to partition the drive here too but i wouldn't explain how to duel boot with one drive as its
-uncharted territory for me, also i wound not recommend duel boot with a drive that is less then 500gb*.
+uncharted territory for me, also i wound not recommend duel boot with a drive that is less then 500gb or installing on a HDD Hard Drive*.
 
 Now select drive it self like show in the picture.
 <img width="1174" height="476" alt="Screenshot 2026-11-02 at 13 00 41" src="https://github.com/user-attachments/assets/681f699f-89db-4b99-b6fe-5ea017d1d193" />
@@ -225,4 +225,6 @@ Now you can format the drive, for name you can name it anything you want for exa
 *DISCLAIMER FORMATTING WILL ERASE ALL FILES AND CONTAIN ON THE DRIVE, PLEASE BACK UP ANYTHING YOU NEED BEFORE FORMATTING.*
 <img width="1169" height="489" alt="Screenshot 2026-11-02 at 13 11 41" src="https://github.com/user-attachments/assets/2923848a-8fae-479b-bc8a-82019a72b2c6" />
 
-Now you can exit out of 
+Now you can exit out of disk utility, and select reinstall Ventura or Sequoia if you are on Ethernet.
+<img width="511" height="470" alt="Screenshot 2026-11-02 at 13 35 30" src="https://github.com/user-attachments/assets/22c7275c-c949-4a02-9bb1-1ac75f815d1d" />
+
