@@ -169,7 +169,34 @@ Now you in opencore, select the .dmg file to boot from, if the file doesn't show
 Now wait a bit, booting in to recovery can take a long time depending on you're drive speed "usb/sd card", after a bit it should start loading.
 <img width="1280" height="832" alt="image" src="https://github.com/user-attachments/assets/7eecafdf-cab6-491b-88e2-a0c6eee55f16" />
 
-After a bit you will boot in to recovery, select disk utility so we can format the drive.
+After a bit you will boot in to recovery. Now you will have to connect to wifi to be able to install MacOS, on the top left Conner click the wifi icon and connect to wifi normal. 
+
+If you have a working Ethernet connection and is booted in to sequoia wifi will not work with oclp patches, open the terminal and run ``` ping 1.1.1.1 ``` and ``` ping google.com ``` Ctrl + Z to suspend.
+If it show something like this then its working.
+```bash
+╭─ethan@Ethans-ThinkPad-Pro ~/Projects/macos-15-t480 ‹main›
+╰─$ ping 1.1.1.1                                                                                                                                                                                             68 ↵
+PING 1.1.1.1 (1.1.1.1): 56 data bytes
+64 bytes from 1.1.1.1: icmp_seq=0 ttl=51 time=92.844 ms
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=51 time=62.844 ms
+64 bytes from 1.1.1.1: icmp_seq=2 ttl=51 time=78.298 ms
+64 bytes from 1.1.1.1: icmp_seq=3 ttl=51 time=66.376 ms
+^Z
+[2]  + 10628 suspended  ping 1.1.1.1
+╭─ethan@Ethans-ThinkPad-Pro ~/Projects/macos-15-t480 ‹main›
+╰─$ ping google.com                                                                                                                                                                                         146 ↵
+PING google.com (142.251.118.101): 56 data bytes
+64 bytes from 142.251.118.101: icmp_seq=0 ttl=107 time=80.705 ms
+64 bytes from 142.251.118.101: icmp_seq=1 ttl=107 time=59.838 ms
+64 bytes from 142.251.118.101: icmp_seq=2 ttl=107 time=55.608 ms
+64 bytes from 142.251.118.101: icmp_seq=3 ttl=107 time=59.183 ms
+^Z
+[3]  + 10667 suspended  ping google.com
+╭─ethan@Ethans-ThinkPad-Pro ~/Projects/macos-15-t480 ‹main›
+╰─$                                                                                                                                                                                                         146 ↵
+```
+
+select disk utility so we can format the drive.
 <img width="510" height="469" alt="Screenshot 2026-11-02 at 12 23 37" src="https://github.com/user-attachments/assets/e5f2f876-2893-43cf-9479-75f501c4c5ec" />
 
 Then from the menu bar or toolbar in Disk Utility, choose View > Show All Devices. *Note that those pictures of disk utility is from macos tahoe, you're s will look different but function the same.*
@@ -189,4 +216,4 @@ Now you can format the drive, for name you can name it anything you want for exa
 *DISCLAIMER FORMATTING WILL ERASE ALL FILES AND CONTAIN ON THE DRIVE, PLEASE BACK UP ANYTHING YOU NEED BEFORE FORMATTING.*
 <img width="1169" height="489" alt="Screenshot 2026-11-02 at 13 11 41" src="https://github.com/user-attachments/assets/2923848a-8fae-479b-bc8a-82019a72b2c6" />
 
-Now you will have to connect to wifi to be able to install MacOS
+Now you will have to connect to wifi to be able to install MacOS, if you have a working ethernet connection
