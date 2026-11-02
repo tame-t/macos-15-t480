@@ -148,4 +148,11 @@ Now the recovery files are located at `~/Downloads/macos-15-t480/macrecovery/com
 
 And it should look something like this.
 
+reboot and press enter and then F12 to get in to the boot picker it should look something like this.
+<img width="627" height="251" alt="Screenshot 2026-11-02 at 12 08 05" src="https://github.com/user-attachments/assets/d6dc15ed-1f87-407f-9452-81ee41a51a34" />
+Then select the usb/sd card or any drive that you use for opencore.
+
+Now you in opencore, select the .dmg file to boot from, if the file doesn't show up for you try pressing space to show all hidden entries.
+Now wait a bit, booting in to recovery can take a long time depending on you're drive speed "usb/sd card", after a bit it should start loading.
+<img width="1280" height="832" alt="image" src="https://github.com/user-attachments/assets/7eecafdf-cab6-491b-88e2-a0c6eee55f16" />
 
