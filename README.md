@@ -176,8 +176,9 @@ After a bit you will boot in to recovery, and look something like this.
 
 Now you will have to connect to wifi to be able to install MacOS, on the top left Conner click the wifi icon and connect to wifi normal. 
 
-If you have a working Ethernet connection and is booted in to sequoia wifi will not work with oclp patches, open the terminal and run ``` ping 1.1.1.1 ``` and ``` ping google.com ``` Ctrl + Z to suspend.
-If it show something like this then its working.
+If you have a working Ethernet connection and is booted in to sequoia wifi will not work with oclp patches, open the terminal and run ``` ping 1.1.1.1 ``` and ``` ping google.com ``` Ctrl + Z to suspend, you can also do this test if you are on wifi.
+
+If it show something like this then its working, then exit out of terminal.
 ```bash
 ╭─ethan@Ethans-ThinkPad-Pro ~/Projects/macos-15-t480 ‹main›
 ╰─$ ping 1.1.1.1                                                                                                                                                                                             68 ↵
