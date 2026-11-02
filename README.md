@@ -115,7 +115,7 @@ First, we are going to configure the BIOS settings for OpenCore to function prop
 -  `CSM Support`: **No**
 
 The reason why we are installing macOS Ventura first is that macOS Sequoia patches the airportilwm.kext; the older version used to get wifi in recovery. 
-I have seen some people who use the Ethernet connection with Sequoia's recovery, but for this guide, I will use Wi-Fi instead.
+If you have a working Ethernet connection you can use sequoia recovery instead, but for this guide, I will use Wi-Fi.
 
 Unfortulatly I can't provide a .img or .iso file that is preconfigured because that is considered pricey and is very illegal.
 
@@ -135,6 +135,8 @@ Then we are going to use macrecovery.py, which is located in the file you downlo
 This is a Python script, so you will need to install Python to use it,
 Command for installing Python on Windows.
 
+Run commands in windows power shell.
+
 ```bash
 winget install -e --id Python.Python.3
 ```
@@ -144,6 +146,13 @@ Command for downloading macOS Ventura recovery files.
 ```bash
 cd ~/Downloads/macos-15-t480/macrecovery
 py macrecovery.py -b Mac-4B682C642B45593E -m 00000000000000000 download
+```
+
+Command for downloading macOS Sequoia recovery files.
+
+```bash
+cd ~/Downloads/macos-15-t480/macrecovery
+py macrecovery.py -b Mac-937A206F2EE63C01 -m 00000000000000000 download
 ```
 
 Now the recovery files are located at `~/Downloads/macos-15-t480/macrecovery/com.apple.recovery.boot/*`
