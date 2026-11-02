@@ -118,7 +118,8 @@ I have seen some people who use the Ethernet connection with Sequoia's recovery,
 Unfortulatly I can't provide a .img or .iso file that is preconfigured because that is considered pricey and is very illegal.
 
 #### Now we will prepare the USB for installing Ventura. 
-The USB must be at least 4 GB for it to house the recovery images of macOS. We are going to be formatting the USB using Rufus, a Windows .exe application. The rufus.exe should already be in the repository. [Rufus](https://rufus.ie/en/)
+The USB must be at least 4 GB for it to house the recovery images of macOS. We are going to be formatting the USB using Rufus, a Windows .exe application. The rufus.exe should already be in the
+repository. [Rufus](https://rufus.ie/en/)
 
 #### Now in Rufus
 Select the USB that you're going to use and match all the selections with the image provided below, then hit Start.
@@ -160,10 +161,11 @@ Now wait a bit, booting in to recovery can take a long time depending on you're 
 After a bit you will boot in to recovery, select disk utility so we can format the drive.
 <img width="510" height="469" alt="Screenshot 2026-11-02 at 12 23 37" src="https://github.com/user-attachments/assets/e5f2f876-2893-43cf-9479-75f501c4c5ec" />
 
-Then from the menu bar or toolbar in Disk Utility, choose View > Show All Devices. *note that those pictures of disk utility is from macos tahoe, you're s will look different but function the same*
+Then from the menu bar or toolbar in Disk Utility, choose View > Show All Devices. *note that those pictures of disk utility is from macos tahoe, you're s will look different but function the same.*
 <img width="890" height="440" alt="image" src="https://github.com/user-attachments/assets/e0979fea-b4e7-4cc0-908d-5a2a6e659d8b" />
 
-Then in the internal section select the drive you want to install MacOS on to. *you should be able to partition the drive here too but i wouldn't explain how to duel boot with one drive as its uncharted territory for me, also i wound not recommend duel boot with a drive that is less then 500gb*.
+Then in the internal section select the drive you want to install MacOS on to. *you should be able to partition the drive here too but i wouldn't explain how to duel boot with one drive as its
+uncharted territory for me, also i wound not recommend duel boot with a drive that is less then 500gb*.
 
 Now select drive it self like show in the picture.
 <img width="1174" height="476" alt="Screenshot 2026-11-02 at 13 00 41" src="https://github.com/user-attachments/assets/681f699f-89db-4b99-b6fe-5ea017d1d193" />
@@ -173,5 +175,5 @@ Now click Erase.
 
 Now you can format the drive, for name you can name it anything you want for example hackintosh, macintosh, ssd, etc. Select APFS for format, and GUID Partition Map for scheme, then hit Erase.
 
-*DISCLAIMER FORMATTING WILL ERASE ALL FILES AND CONTAIN ON THE DRIVE, PLEASE BACK UP ANYTHING YOU NEED BEFORE FORMATTING*
+*DISCLAIMER FORMATTING WILL ERASE ALL FILES AND CONTAIN ON THE DRIVE, PLEASE BACK UP ANYTHING YOU NEED BEFORE FORMATTING.*
 <img width="1169" height="489" alt="Screenshot 2026-11-02 at 13 11 41" src="https://github.com/user-attachments/assets/2923848a-8fae-479b-bc8a-82019a72b2c6" />
