@@ -240,6 +240,12 @@ The install prossecs can take time, this depended on you internet speed.
 
 <img width="607" height="456" alt="image" src="https://github.com/user-attachments/assets/76b78a5b-8b5d-490e-8637-a49170fa6467" />
 
-After this you ThinkPad will reboot, this can happen 3-4 times some time even more, make sure that you boot in to opencore usb every time, if not go into bio and change the first boot option to the usb/sd card, you can leave it alone when its installing.
+After this you ThinkPad will reboot, this can happen 3-4 times some time even more, make sure that you boot in to opencore usb every time, if not go into bio and change the first boot option to the usb/sd card, you can leave it alone when its instal ling.
 
 <img width="1904" height="1043" alt="image" src="https://github.com/user-attachments/assets/b294f04b-1855-4fba-ad5b-57000f807b1f" />
+
+After its done installing you go through setup normal. Just like a new mac.
+For people with working Ethernet and sequoia go through the setup with Ethernet connected skip the connect to wifi, and go down on the guild to the oclp-mod guild for patching wifi.
+
+<h2> Installing MacOS sequoia </h2>
+for the people that don`t have ethernet
