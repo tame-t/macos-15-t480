@@ -130,7 +130,7 @@ Select the USB that you're going to use and match all the selections with the im
 
 After the USB is formatted, delete all files from the USB that came from the formatting. **Things like autorun** 
 
-Then we are going to use macrecovery.py, which is located in the file you downloaded, to get the Ventura recovery files. [macosrecovery.py](https://github.com/acidanthera/OpenCorePkg/blob/master/Utilities/macrecovery/macrecovery.py)
+Then we are going to use macrecovery.py, which is located in the file you downloaded, to get the Ventura recovery files. If you have a working Ethernet connection get sequoia files instead [macosrecovery.py](https://github.com/acidanthera/OpenCorePkg/blob/master/Utilities/macrecovery/macrecovery.py)
 
 This is a Python script, so you will need to install Python to use it,
 Command for installing Python on Windows.
