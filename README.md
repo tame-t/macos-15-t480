@@ -90,6 +90,8 @@ We are going to download this repo, which contains all the necessary files to be
 
 We are going to start by installing macOS Ventura, then upgrading to macOS Sequoia, applying the patches that fix airportltwm, and allowing native Wi-Fi connectivity with an Intel Wi-Fi card. Then we will add the Voltageshift to startup for undervolting.
 
+Before we start backup any important files that you need.
+
 First, we are going to configure the BIOS settings for OpenCore to function properly.
 
 #### The BIOS settings:
@@ -115,7 +117,7 @@ First, we are going to configure the BIOS settings for OpenCore to function prop
 -  `CSM Support`: **No**
 
 The reason why we are installing macOS Ventura first is that macOS Sequoia patches the airportilwm.kext; the older version used to get wifi in recovery. 
-If you have a working Ethernet connection you can use sequoia recovery instead, but for this guide, I will use Wi-Fi.
+If you have a working Ethernet connection you can use sequoia recovery instead, but for this guide, I will use Wi-Fi with inculcated guilds for Ethernet.
 
 Unfortulatly I can't provide a .img or .iso file that is preconfigured because that is considered pricey and is very illegal.
 
@@ -223,4 +225,4 @@ Now you can format the drive, for name you can name it anything you want for exa
 *DISCLAIMER FORMATTING WILL ERASE ALL FILES AND CONTAIN ON THE DRIVE, PLEASE BACK UP ANYTHING YOU NEED BEFORE FORMATTING.*
 <img width="1169" height="489" alt="Screenshot 2026-11-02 at 13 11 41" src="https://github.com/user-attachments/assets/2923848a-8fae-479b-bc8a-82019a72b2c6" />
 
-Now you will have to connect to wifi to be able to install MacOS, if you have a working ethernet connection
+Now you can exit out of 
