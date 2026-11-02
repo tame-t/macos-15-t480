@@ -202,7 +202,8 @@ PING google.com (142.251.118.101): 56 data bytes
 ╰─$                                                                                                                                                                                                         146 ↵
 ```
 
-select disk utility so we can format the drive.
+Now Select disk utility so we can format the drive.
+
 <img width="510" height="469" alt="Screenshot 2026-11-02 at 12 23 37" src="https://github.com/user-attachments/assets/e5f2f876-2893-43cf-9479-75f501c4c5ec" />
 
 Then from the menu bar or toolbar in Disk Utility, choose View > Show All Devices. *Note that those pictures of disk utility is from macos tahoe, you're s will look different but function the same.*
